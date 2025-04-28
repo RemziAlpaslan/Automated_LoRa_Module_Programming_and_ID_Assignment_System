@@ -5,8 +5,7 @@ burn_sender = [
     "python", "tremo_loader.py",
     "--port", '/dev/ttyUSB0',
     "--baud", "115200",
-    "flash", "0x08000000",
-    "Ra-08H_EU868_V1.4.0.bin"
+    "erase", "0x08000000","131072"
 ]
 
 try:
