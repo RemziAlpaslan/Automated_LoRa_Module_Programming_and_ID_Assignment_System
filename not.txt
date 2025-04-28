@@ -1,0 +1,7 @@
+ls /dev/tty*
+
+
+python3 /home/antagpc/Desktop/tremo_loader.py --port /dev/ttyUSB0 --baud 115200 flash 0x08000000 "/home/antagpc/Desktop/Ra-08H_EU868_V1.4.0.bin"
+
+
+python3 /home/antagpc/Desktop/tremo_loader.py --port /dev/ttyUSB0 --baud 115200 erase  0x08000000 131072
